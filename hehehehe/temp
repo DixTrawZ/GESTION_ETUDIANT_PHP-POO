@@ -1,0 +1,37 @@
+    class Student 
+    {
+        private $id;
+        private $lastName;
+        private $firstName;
+        private $dateOfBirth;
+        private $registrationList = [];
+    }
+
+    class Teacher 
+    {
+        private $id;
+        private $lastName;
+        private $firstName;
+        private $specialty;
+        private $courseList = [];
+    }
+
+    class Registration 
+    {
+        private $id;
+        private $dateOfInscription;
+        private $grade;
+        private $studentId;
+        private $courseId;
+    }
+
+    class Course 
+    {
+        private $id;
+        private $name;
+        private $description;
+        private $credits;
+        private $teacherId;
+    }
+
+
